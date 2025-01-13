@@ -358,7 +358,7 @@ header{
 .service-card:hover {
     background-color: rgb(162, 202, 238);
     box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
-    transition: 1s;
+    transition: 0.5s;
 }
 
 
