@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="main">
+    <!-- Header -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#" id="brandname">Medilab</a>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item me-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link active" href="#scroll-about">About</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link active" href="#scroll-services">Services</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link active" href="#scroll-depart">Department</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link active" href="#scroll-doctor">Doctors</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle btn btn-light" href="#" id="navbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Dropdown1</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown1</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown1</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown1</a></li>
+                  <li><a class="dropdown-item" href="#">Dropdown1</a></li>
+                </ul>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link active" href="#scroll-contact">Contact</a>
+              </li>
+            </ul>
+            <a class="btn btn-primary cta-btn d-none d-sm-block" href="#appointment"
+              style="background-color: #1977cc; border-color: #007bff; color: white; padding: 7px 20px; border-radius: 30px; ">Make
+              an Appointment</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End of the Header -->
+
+    <!-- Home Section -->
+    <div class="home">
+      <div id="first-sec">
+        <h1>WELCOME TO MEDILAB</h1>
+        <p>We are team of talented designers making websites with Bootstrap</p>
+      </div>
+      <div id="second-sec">
+        <div id="sec-card1">
+          <h2>Why Choose <br>Medilab?</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis beatae temporibus itaque nisi, ipsam
+            nam magnam libero officiis hic, provident placeat dolore dolor fugiat praesentium eveniet soluta cum,
+            eligendi voluptas?</p>
+          <button>Learn More ></button>
+        </div>
+        <div id="sec-card2">
+          <img src="assets/clipboard-data.svg" alt="img">
+          <h4>Corporis voluptates officia eiusmod</h4>
+          <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+        </div>
+        <div id="sec-card3">
+          <img src="assets/gem.svg" alt="img">
+          <h4>Ullamco laboris ladore pan</h4>
+          <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+        </div>
+        <div id="sec-card4">
+          <img src="assets/inboxes.svg" alt="img">
+          <h4>Labore consequatur incidid dolore</h4>
+          <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+        </div>
+      </div>
+      <!-- End of Home Section -->
+
+      <!-- About Section -->
+      <div class="about" id="scroll-about">
+        <div id="about-left">
+          <img src="assets/about.jpg" alt="" id="about-img">
+        </div>
+        <div id="about-right">
+          <h3>About Us</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa incidunt et delectus est esse, quis
+            cupiditate aliquid atque explicabo repellat aut quia, ad alias quae exercitationem aspernatur distinctio
+            ipsam provident.</p>
+          <div id="right-about-img">
+            <img src="assets/tube.png" alt="" width="50px" height="50px">
+            <div id="content">
+              <h4>Ullamco laboris nisi ut aliquip consequat</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+            </div>
+          </div>
+          <div id="right-about-img">
+            <img src="assets/air-pump.png" alt="" width="50px" height="50px">
+            <div id="content">
+              <h4>Magnam soluta odio exercitationem reprehenderi</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+            </div>
+          </div>
+          <div id="right-about-img">
+            <img src="assets/heart.png" alt="" width="50px" height="50px">
+            <div id="content">
+              <h4>Voluptatem et qui exercitationem</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of About Section -->
+
+      <!-- Stats Section -->
+      <div class="stats">
+        <div class="stats-card">
+          <img src="assets/doctor.png" alt="">
+          <h2>85</h2>
+          <p>Doctors</p>
+        </div>
+        <div class="stats-card">
+          <img src="assets/department(1).png" alt="">
+          <h2>18</h2>
+          <p>Departments</p>
+        </div>
+        <div class="stats-card">
+          <img src="assets/lab.png" alt="">
+          <h2>12</h2>
+          <p>Research Labs</p>
+        </div>
+        <div class="stats-card">
+          <img src="assets/awrds.png" alt="">
+          <h2>150</h2>
+          <p>Awards</p>
+        </div>
+      </div>
+      <!-- End of Stats Section -->
+
+      <!-- Services Section -->
+      <div class="services" id="scroll-services">
+        <h2>Services</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium placeat reprehenderit.</p>
+      </div>
+      <!-- End of Sercices Section -->
+
+      <!-- Service Card Section -->
+      <div class="service-card-section">
+        <div class="service-card">
+          <img src="assets/heart-service.png" alt="">
+          <h1>Lorem Epsum</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium explicabo quisquam illo corrupti
+            repudiandae</p>
+        </div>
+        <div class="service-card">
+          <img src="assets/heart-service.png" alt="">
+          <h1>Lorem Epsum</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium explicabo quisquam illo corrupti
+            repudiandae</p>
+        </div>
+        <div class="service-card">
+          <img src="assets/heart-service.png" alt="">
+          <h1>Lorem Epsum</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium explicabo quisquam illo corrupti
+            repudiandae</p>
+        </div>
+        <div class="service-card">
+          <img src="assets/heart-service.png" alt="">
+          <h1>Lorem Epsum</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium explicabo quisquam illo corrupti
+            repudiandae</p>
+        </div>
+        <div class="service-card">
+          <img src="assets/heart-service.png" alt="">
+          <h1>Lorem Epsum</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium explicabo quisquam illo corrupti
+            repudiandae</p>
+        </div>
+        <div class="service-card">
+          <img src="assets/heart-service.png" alt="">
+          <h1>Lorem Epsum</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium explicabo quisquam illo corrupti
+            repudiandae</p>
+        </div>
+      </div>
+      <!-- End of Service Card Section -->
+
+
+      <!-- Appoinment Section -->
+      <div class="services">
+        <h2>Appointment</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium placeat reprehenderit.</p>
+      </div>
+      <!-- End of Apoinment Section -->
+
+      <!-- Appointment Form Section -->
+      <div class="form">
+        <div class="form-group">
+          <input type="text" class="form-control" id="name" placeholder="Name">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" id="email" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" id="phone" placeholder="Phone">
+        </div>
+        <div class="form-group">
+          <input type="date" class="form-control" id="date" placeholder="Date">
+        </div>
+        <div class="form-group">
+          <select class="form-select" id="department">
+            <option selected>Select Department</option>
+            <option value="1">Cardiology</option>
+            <option value="2">Neurology</option>
+            <option value="3">Orthopedic</option>
+            <option value="4">Dental</option>
+            <option value="5">Ophthalmology</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <select class="form-select" id="doctor">
+            <option selected>Select Doctor</option>
+            <option value="1">Dr. John Doe</option>
+            <option value="2">Dr. Jane Doe</option>
+            <option value="3">Dr. Mike Doe</option>
+            <option value="4">Dr. Karen Doe</option>
+            <option value="5">Dr. Steve Doe</option>
+          </select>
+        </div>
+        <div class="form-text">
+          <textarea class="form-control" id="message" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+      <!-- End of Appointment Form Section -->
+
+      <!-- Departments Section -->
+      <div class="services" id="scroll-depart">
+        <h2>Departments</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium placeat reprehenderit.</p>
+      </div>
+      <!-- End of Departments Section -->
+
+      <!-- Departments Accordion -->
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column" id="departmentsTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active show" id="departments-tab-1-tab" data-bs-toggle="tab"
+                  href="#departments-tab-1" role="tab" aria-controls="departments-tab-1"
+                  aria-selected="true">Cardiology</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="departments-tab-2-tab" data-bs-toggle="tab" href="#departments-tab-2" role="tab"
+                  aria-controls="departments-tab-2" aria-selected="false">Neurology</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="departments-tab-3-tab" data-bs-toggle="tab" href="#departments-tab-3" role="tab"
+                  aria-controls="departments-tab-3" aria-selected="false">Hepatology</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="departments-tab-4-tab" data-bs-toggle="tab" href="#departments-tab-4" role="tab"
+                  aria-controls="departments-tab-4" aria-selected="false">Pediatrics</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="departments-tab-5-tab" data-bs-toggle="tab" href="#departments-tab-5" role="tab"
+                  aria-controls="departments-tab-5" aria-selected="false">Eye Care</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content" id="departmentsTabContent">
+              <div class="tab-pane fade show active" id="departments-tab-1" role="tabpanel"
+                aria-labelledby="departments-tab-1-tab">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Cardiology</h3>
+                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer
+                      a videna mareta paulona marka</p>
+                    <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa
+                      odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni
+                      nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/departments-1.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="departments-tab-2" role="tabpanel" aria-labelledby="departments-tab-2-tab">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Et blanditiis nemo veritatis excepturi</h3>
+                    <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer
+                      a videna mareta paulona marka</p>
+                    <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt
+                      est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque
+                      beatae accusamus lerode pakto madirna desera vafle de nideran pal.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/departments-2.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="departments-tab-3" role="tabpanel" aria-labelledby="departments-tab-3-tab">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Impedit facilis occaecati odio neque aperiam sit</h3>
+                    <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus
+                      non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
+                    <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque
+                      necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum
+                      odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/departments-3.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="departments-tab-4" role="tabpanel" aria-labelledby="departments-tab-4-tab">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Fuga dolores inventore laboriosam ut est accusamus laboriosam dolore</h3>
+                    <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis
+                      delectus</p>
+                    <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam
+                      fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores
+                      sed qui veritatis aperiam quia a laborum inventore.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/departments-4.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="departments-tab-5" role="tabpanel" aria-labelledby="departments-tab-5-tab">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
+                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
+                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut
+                      quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae
+                      molestiae voluptate vel</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/departments-5.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Departments Accordion -->
+
+
+      <!-- Doctors Section -->
+      <div class="services" id="scroll-doctor">
+        <h2>Doctors</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium placeat reprehenderit.</p>
+      </div>
+      <!-- End of Doctors Section -->
+
+      <!-- Doctors Card Section -->
+      <div class="doctor-card">
+        <div class="cards">
+          <div class="card-img">
+            <img src="assets/doctors-1.jpg" alt="doctor">
+          </div>
+          <div class="card-content">
+            <h3>Walter White</h3>
+            <p id="p1">Chief Medical Officer</p>
+            <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card-img">
+            <img src="assets/doctors-2.jpg" alt="doctor">
+          </div>
+          <div class="card-content">
+            <h3>Sarah Jhonson</h3>
+            <p id="p1">Anesthesiologist</p>
+            <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card-img">
+            <img src="assets/doctors-3.jpg" alt="doctor">
+          </div>
+          <div class="card-content">
+            <h3>William Anderson</h3>
+            <p id="p1">Cardiology</p>
+            <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card-img">
+            <img src="assets/doctors-4.jpg" alt="doctor">
+          </div>
+          <div class="card-content">
+            <h3>Amanda Jepson</h3>
+            <p id="p1">Neurosurgeon</p>
+            <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Doctors Card end section -->
+
+      <!-- Frequently Asked Questions Section -->
+      <div class="services">
+        <h2>Frequently Asked Questions</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium placeat reprehenderit.</p>
+      </div>
+      <!-- End of Frequently Asked Questions Section -->
+
+
+      <!-- FAQ Accordion -->
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <div class="faq-container">
+
+              <div class="faq-item active">
+                <h3 class="faq-title">Non consectetur a erat nam at lectus urna duis?</h3>
+                <div class="faq-content">
+                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur
+                    gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <h3 class="faq-title">Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
+                <div class="faq-content">
+                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet
+                    id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque
+                    elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <h3 class="faq-title">Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+                <div class="faq-content">
+                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar
+                    elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque
+                    eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis
+                    sed odio morbi quis.</p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <h3 class="faq-title">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
+                <div class="faq-content">
+                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet
+                    id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque
+                    elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <h3 class="faq-title">Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
+                <div class="faq-content">
+                  <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in.
+                    Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est.
+                    Purus gravida quis blandit turpis cursus in.</p>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <h3 class="faq-title">Perspiciatis quod quo quos nulla quo illum ullam?</h3>
+                <div class="faq-content">
+                  <p>Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed in suscipit sequi.
+                    Distinctio ipsam dolore et.</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <script>
+        // Select all FAQ items
+        const faqItems = document.querySelectorAll('.faq-item');
+
+        // Add click event to each FAQ title
+        faqItems.forEach(item => {
+          const title = item.querySelector('.faq-title');
+          title.addEventListener('click', () => {
+            // Toggle the 'active' class for the clicked FAQ item
+            item.classList.toggle('active');
+          });
+        });
+      </script>
+      <!-- End of FAQ Accordion -->
+
+      <!-- Gallery Section -->
+      <div class="services">
+        <h2>Gallery</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium placeat reprehenderit.</p>
+      </div>
+      <!-- End of Gallery Section -->
+
+      <!-- Gallery Section -->
+      <div class="gallery-container">
+        <img src="assets/gallery-1.jpg" alt="Gallery">
+        <img src="assets/gallery-2.jpg" alt="Gallery">
+        <img src="assets/gallery-3.jpg" alt="Gallery">
+        <img src="assets/gallery-4.jpg" alt="Gallery">
+        <img src="assets/gallery-5.jpg" alt="Gallery">
+        <img src="assets/gallery-6.jpg" alt="Gallery">
+        <img src="assets/gallery-7.jpg" alt="Gallery">
+        <img src="assets/gallery-8.jpg" alt="Gallery">
+      </div>
+      <!-- End of Gallery Section -->
+
+      <!-- Contact Section -->
+      <div class="services" id="scroll-contact">
+        <h2>Contact</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium placeat reprehenderit.</p>
+      </div>
+      <!-- End of Contact Section -->
+      <section id="contact" class="contact section">
+        <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
+          <iframe style="border:0; width: 100%; height: 270px;"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+            frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+      <!-- End of Contact Section -->
+
+      <!-- Contact Form Section -->
+      <div class="feedback-form">
+        <div class="left-contact">
+          <div class="main-contact-info">
+            <div class="contact-info">
+              <div class="sub-contact1">
+                <img src="assets/location.png" alt="" width="50px" height="50px">
+              </div>
+              <div class="sub-contact2">
+                <h2>Location</h2>
+                <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
+            </div>
+            <div class="contact-info">
+              <div class="sub-contact1">
+                <img src="assets/call.png" alt="" width="50px" height="50px">
+              </div>
+              <div class="sub-contact2">
+                <h2>Call Us</h2>
+                <p>+91 5589554885</p>
+              </div>
+            </div>
+            <div class="contact-info">
+              <div class="sub-contact1">
+                <img src="assets/email.png" alt="" width="50px" height="50px">
+              </div>
+              <div class="sub-contact2">
+                <h2>Email Us</h2>
+                <p>info@example.com</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="right-contact">
+          <div class="form-contact">
+            <div class="form-row">
+              <div class="form-group1">
+                <input type="text" class="form-control" id="name" placeholder="Name">
+              </div>
+              <div class="form-group1">
+                <input type="email" class="form-control" id="email" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-subject">
+              <input type="text" class="form-control" id="phone" placeholder="Subject">
+            </div>
+            <div class="form-text1">
+              <textarea class="form-text-area" id="message" rows="3" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send message</button>
+          </div>
+        </div>
+      </div>
+      <!-- End of Contact Form Section -->
+
+      <!-- Footer Section -->
+      <footer id="footer" class="footer">
+
+        <div class="container footer-top">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6 footer-about">
+              <a href="index.html" class="logo d-flex align-items-center">
+                <h1>Medilab</h1>
+              </a>
+              <div class="footer-contact pt-3">
+                <p>A108 Adam Street</p>
+                <p>New York, NY 535022</p>
+                <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+                <p><strong>Email:</strong> <span>info@example.com</span></p>
+              </div>
+              <div class="social-links d-flex mt-4">
+                <a href=""><i class="bi bi-twitter-x"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+    
+            <div class="col-lg-2 col-md-3 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Terms of service</a></li>
+                <li><a href="#">Privacy policy</a></li>
+              </ul>
+            </div>
+    
+            <div class="col-lg-2 col-md-3 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">Product Management</a></li>
+                <li><a href="#">Marketing</a></li>
+                <li><a href="#">Graphic Design</a></li>
+              </ul>
+            </div>
+    
+            <div class="col-lg-2 col-md-3 footer-links">
+              <h4>Hic solutasetp</h4>
+              <ul>
+                <li><a href="#">Molestiae accusamus iure</a></li>
+                <li><a href="#">Excepturi dignissimos</a></li>
+                <li><a href="#">Suscipit distinctio</a></li>
+                <li><a href="#">Dilecta</a></li>
+                <li><a href="#">Sit quas consectetur</a></li>
+              </ul>
+            </div>
+    
+            <div class="col-lg-2 col-md-3 footer-links">
+              <h4>Nobis illum</h4>
+              <ul>
+                <li><a href="#">Ipsam</a></li>
+                <li><a href="#">Laudantium dolorum</a></li>
+                <li><a href="#">Dinera</a></li>
+                <li><a href="#">Trodelas</a></li>
+                <li><a href="#">Flexo</a></li>
+              </ul>
+            </div>
+    
+          </div>
+        </div>
+
+      <!-- End of footer -->
+
+  </main>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
